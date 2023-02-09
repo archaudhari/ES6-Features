@@ -15,3 +15,8 @@ let multiply = function(a, b) {
 
 // Arrow Function
 let multiply = (a, b) => a * b;
+
+// Template Literals: A way of embedding expressions within string literals, making it easier to construct strings with dynamic content.
+
+let name = 'John';
+let message = `Hello, ${name}!`; // Output: "Hello, John!"
