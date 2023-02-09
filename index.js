@@ -5,3 +5,13 @@
 const PI = 3.14; // Cannot be reassigned
 let x = 10; // Can be reassigned
 x = 20;
+
+// Arrow Functions: A shorthand for writing anonymous functions, making code more concise and readable.
+
+// Traditional Function
+let multiply = function(a, b) {
+  return a * b;
+};
+
+// Arrow Function
+let multiply = (a, b) => a * b;
